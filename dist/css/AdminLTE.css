@@ -623,6 +623,7 @@ a:focus {
   .sidebar-mini.sidebar-collapse .sidebar-menu > li > a > .pull-right,
   .sidebar-mini.sidebar-collapse .sidebar-menu li.header {
     display: none!important;
+    -webkit-transform: translateZ(0);
   }
   .sidebar-mini.sidebar-collapse .main-header .logo {
     width: 50px;
@@ -1972,6 +1973,9 @@ a:focus {
   font-size: 45px;
   line-height: 90px;
   background: rgba(0, 0, 0, 0.2);
+}
+.info-box-icon > img {
+  max-width: 100%;
 }
 .info-box-content {
   padding: 5px 10px;
